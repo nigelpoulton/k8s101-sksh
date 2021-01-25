@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: lb-101
+  labels:
+    app: web
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    app: web
