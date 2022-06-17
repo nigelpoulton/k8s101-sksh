@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: 101-ctr
-    image: nigelpoulton/k8s101-sksh:1.0
+    image: cbabu85/k8s-demo:latest
     ports:
     - containerPort: 8080
