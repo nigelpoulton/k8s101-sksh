@@ -17,7 +17,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: nigelpoulton/k8s101-sksh:2.0
+      - image: nigelpoulton/k8s101-sksh:1.0
         name: web-ctr
         ports:
         - containerPort: 8080
